@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import NavBar from './NavBar';
+import About from './About';
+import Housewives from './Housewives';
+import MyCast from './MyCast';
+import Form from './Form';
+import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Routes>
+          <Route path='/about' element={<About />}/>
+          <Route path='/housewives' element={<Housewives />}/>
+          <Route path='/mycast' element={<MyCast />}/>
+          <Route path='/form' element={<Form />}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
