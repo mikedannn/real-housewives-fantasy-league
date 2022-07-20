@@ -11,7 +11,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: rgb(114, 162, 165, .7);
+  background: rgba(140, 216, 221, 0.5);
   color: white;
 }
 
@@ -23,9 +23,7 @@ nav {
   list-style: none;
 }
 
-/* .logo {
-  
-} */
+
 
 
 
