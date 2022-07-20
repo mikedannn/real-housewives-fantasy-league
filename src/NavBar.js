@@ -10,7 +10,7 @@ function NavBar() {
 
   return (
     <nav>
-      <h3>LOGO</h3>
+      <h1>Real Housewives Fantasy League</h1>
         <ul className='nav-links'>
             <Link style={NavStyle} to='/about'>
                 <li>About</li>

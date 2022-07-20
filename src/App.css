@@ -19,3 +19,13 @@ nav {
   list-style: none;
 }
 
+.logo {
+  height:auto;
+    width:auto;
+    float: left;
+    padding-left: 2%;
+    margin: 0 auto; 
+    padding: 10px 0;
+    object-fit:cover;
+}
+

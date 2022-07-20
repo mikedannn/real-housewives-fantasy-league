@@ -5,7 +5,8 @@ import About from './About';
 import Housewives from './Housewives';
 import MyCast from './MyCast';
 import Form from './Form';
-import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
+          <Route exact path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/housewives' element={<Housewives />}/>
           <Route path='/mycast' element={<MyCast />}/>
@@ -22,5 +24,8 @@ function App() {
     </Router>
   );
 }
+
+
+
 
 export default App;
