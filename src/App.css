@@ -2,12 +2,16 @@
   text-align: center;
 }
 
+body {
+  background-color: rgb(151, 234, 237, .4);
+}
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: rgb(114, 150, 152);
+  background: rgb(114, 162, 165, .7);
   color: white;
 }
 
@@ -19,13 +23,9 @@ nav {
   list-style: none;
 }
 
-.logo {
-  height:auto;
-    width:auto;
-    float: left;
-    padding-left: 2%;
-    margin: 0 auto; 
-    padding: 10px 0;
-    object-fit:cover;
-}
+/* .logo {
+  
+} */
+
+
 
