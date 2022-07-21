@@ -4,7 +4,15 @@ import './App.css';
 
 function HousewivesList({ housewives }) {
 
-    const returnHousewives = housewives.map((housewife) => <HousewifeCard key={housewife.id} age={housewife.age} city={housewife.city} image={housewife.image} name={housewife.name}/>)
+    const returnHousewives = housewives.map((housewife) => (
+    <HousewifeCard 
+        key={housewife.id} 
+        age={housewife.age} 
+        city={housewife.city} 
+        image={housewife.image} 
+        name={housewife.name}
+    />
+     ));
     
     return (
         <ul className='cards'>

@@ -1,10 +1,16 @@
+import React from 'react';
 import './App.css';
 
-function HousewifeCard() {
+function HousewifeCard({ age, city, image, name }) {
   return (
-    <div className="App">
-      <h1>Cards go here</h1>
-    </div>
+
+    <li className="card">
+        <img src={image} alt={name} />
+        <h3>{name}</h3>
+        <p>City: {city} </p>
+        <p>Age: {age} </p>
+        <button>Add to My Cast!</button>
+    </li>
   );
 }
 
