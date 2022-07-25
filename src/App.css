@@ -56,6 +56,13 @@ nav {
     border-radius: 6px;
 }
 
+img {
+  float: left;
+  width:  250px;
+  height: 250px;
+  object-fit: cover;
+}
+
 @media (min-width: 700px) {
   .cards {
     display: flex;
