@@ -1,11 +1,12 @@
 import './App.css';
 import React, { useState } from 'react';
 
+const BASE_URL = "http://localhost:3002/housewivesData"
 const intitialNewHousewife = {
   name: "",
   image: "",
   city: "",
-  age: 0
+  age: 0,
 }
 
 function Form() {
@@ -20,10 +21,23 @@ function Form() {
     }));
   }
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    fetch(BASE_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(newHousewife)
+    })
+      .then((response) => response.json())
+      .then(data => console.log(data))
+  }
+
   return (
     <div className="form">
       <h3>Create New Housewife Card</h3>
-        <form>
+        <form onSubmit={handleSubmit}>
             <input 
               type='text' 
               name='name' 
