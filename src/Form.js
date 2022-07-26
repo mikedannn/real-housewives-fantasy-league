@@ -33,6 +33,8 @@ function Form({ setHousewives }) {
     })
       .then((response) => response.json())
       .then(data => setHousewives((currentHousewives) => [...currentHousewives, data]));
+
+    setNewHousewife(intitialNewHousewife);
   }
 
   return (
