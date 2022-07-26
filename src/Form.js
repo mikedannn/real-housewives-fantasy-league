@@ -9,7 +9,7 @@ const intitialNewHousewife = {
   age: 0,
 }
 
-function Form() {
+function Form({ setHousewives }) {
 
   const [newHousewife, setNewHousewife] = useState(intitialNewHousewife)
   console.log(newHousewife)
@@ -23,6 +23,7 @@ function Form() {
 
   function handleSubmit(e) {
     e.preventDefault();
+
     fetch(BASE_URL, {
       method: "POST",
       headers: {
@@ -31,7 +32,7 @@ function Form() {
       body: JSON.stringify(newHousewife)
     })
       .then((response) => response.json())
-      .then(data => console.log(data))
+      .then(data => setHousewives((currentHousewives) => [...currentHousewives, data]));
   }
 
   return (

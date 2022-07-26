@@ -19,7 +19,7 @@ function HousewivesPage() {
 
   return (
     <main>
-      <Form />
+      <Form setHousewives={setHousewives}/>
       <MyCast />
       <HousewivesList housewives={housewives} />
     </main>
