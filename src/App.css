@@ -42,22 +42,39 @@ nav {
 
 .card img {
   width: 100%;
-}
-
-.card button {
-    background-color: rgba(253, 123, 253, 0.4); 
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;  
-    border-radius: 6px;
-}
-
-img {
   float: left;
+  width:  250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.addButton {
+  background-color: rgba(253, 123, 253, 0.4); 
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;  
+  border-radius: 6px;
+}
+
+.inCastButton {
+  background-color: rgba(140, 216, 221, 0.5);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;  
+  border-radius: 6px;
+}
+
+
+header {
+  float: center;
   width:  250px;
   height: 250px;
   object-fit: cover;
