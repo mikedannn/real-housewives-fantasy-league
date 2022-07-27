@@ -40,6 +40,20 @@ nav {
   text-align: center;
 }
 
+.logo {
+  width: 100%;
+  float: center;
+  width:  700px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.header {
+  color: rgba(253, 123, 253, 0.4); 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
 .card img {
   width: 100%;
   float: left;
