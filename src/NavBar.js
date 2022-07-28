@@ -18,7 +18,7 @@ function NavBar() {
             <Link style={NavStyle} to='/housewivespage'>
                 <li>Housewives</li>
             </Link>
-            <Link style={NavStyle} to='/mycast'>
+            <Link style={NavStyle} to='/mycastcontainer'>
             <   li>MyCast</li>
             </Link>
             <Link style={NavStyle} to='/form'>

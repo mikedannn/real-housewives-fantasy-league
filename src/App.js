@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './NavBar';
 import About from './About';
 import HousewivesPage from './HousewivesPage';
-import MyCast from './MyCast';
+import MyCastContainer from './MyCastContainer';
 import Form from './Form';
 import Home from './Home';
 import HousewifeCard from './HousewifeCard';
@@ -18,7 +18,7 @@ function App() {
           <Route exact path='/' element={<Home />}/>
           <Route path='/about' element={<About />}/>
           <Route path='/housewivespage' element={<HousewivesPage />}/>
-          <Route path='/mycast' element={<MyCast />}/>
+          <Route path='/mycastcontainer' element={<MyCastContainer />}/>
           <Route path='/form' element={<Form />}/>
         </Routes>
       </div>

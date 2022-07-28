@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import MyCast from './MyCast';
+import MyCastContainer from './MyCastContainer';
 import Form from './Form';
 import HousewivesList from './HousewivesList';
+import SearchHousewives from './SearchHousewives';
 
 const BASE_URL = "http://localhost:3002/housewivesData"
 
@@ -20,7 +21,8 @@ function HousewivesPage() {
   return (
     <main>
       <Form setHousewives={setHousewives}/>
-      <MyCast />
+      <MyCastContainer />
+      <SearchHousewives />
       <HousewivesList housewives={housewives} />
     </main>
   );

@@ -1,6 +1,6 @@
 import './App.css';
 
-function MyCast() {
+function MyCastContainer() {
   return (
     <div className="App">
       <h1>MyCast Page</h1>
@@ -8,4 +8,4 @@ function MyCast() {
   );
 }
 
-export default MyCast;
+export default MyCastContainer;
