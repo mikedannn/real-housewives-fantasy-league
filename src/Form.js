@@ -39,15 +39,17 @@ function Form({ setHousewives }) {
 
   return (
     <div className="form">
-      <h3>Create New Housewife Card</h3>
+      <h3 className='formTitle'>Add a New Housewife!</h3>
         <form onSubmit={handleSubmit}>
+            {/* <label>Housewife Name: </label> */}
             <input 
-              type='text' 
+              type='text'
               name='name' 
               placeholder='Housewife Name' 
               value={newHousewife.name}
               onChange={handleChange}
             />
+            {/* <label>Image URL: </label> */}
             <input 
               type='text' 
               name='image' 
@@ -55,6 +57,7 @@ function Form({ setHousewives }) {
               value={newHousewife.image}
               onChange={handleChange}
             />
+            {/* <label>City: </label> */}
             <input 
               type='text' 
               name='city' 
@@ -62,6 +65,7 @@ function Form({ setHousewives }) {
               value={newHousewife.city}
               onChange={handleChange}
             />
+            {/* <label>Age: </label> */}
             <input 
               type='number' 
               name='age' 
