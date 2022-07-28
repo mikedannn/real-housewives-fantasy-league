@@ -10,20 +10,22 @@ function HousewivesPage() {
 
   const [housewives, setHousewives] = useState([]);
 
+  const [searchEntry, setSearchEntry] = useState('');
+
   useEffect(() => {
     fetch(BASE_URL)
     .then((response) => response.json())
     .then(setHousewives)
   }, []); 
 
-  console.log(housewives)
+  const filteredHousewives = housewives.filter((housewife) => housewife.name.toLowerCase().includes(searchEntry.toLowerCase()))
 
   return (
     <main>
       <Form setHousewives={setHousewives}/>
       <MyCastContainer />
-      <SearchHousewives />
-      <HousewivesList housewives={housewives} />
+      <SearchHousewives searchEntry={searchEntry} setSearchEntry={setSearchEntry}/>
+      <HousewivesList housewives={filteredHousewives} />
     </main>
   );
 }

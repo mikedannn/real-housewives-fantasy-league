@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 
-function SearchHousewives() {
+function SearchHousewives({ searchEntry, setSearchEntry }) {
     return (
       <div className='search'>
         <label htmlFor='search'>Search Housewives</label>
@@ -9,7 +9,8 @@ function SearchHousewives() {
             type='text'
             id='search'
             placeholder='Type a name'
-            onChange={(e) => console.log('Searching...')}
+            value={searchEntry}
+            onChange={(e) => setSearchEntry(e.target.value)}
         />
       </div>
     );
