@@ -12,8 +12,8 @@ function HousewifeCard({ age, city, image, name }) {
   return (
 
     <li className="card">
-        <img src={image} alt={name} />
-        <h3>{name}</h3>
+        <img className="cardImage" src={image} alt={name} />
+        <h2>{name}</h2>
         <p>City: {city} </p>
         <p>Age: {age} </p>
         {addToCast ? (
