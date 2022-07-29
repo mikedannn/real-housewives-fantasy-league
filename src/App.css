@@ -119,8 +119,9 @@ header {
 
 .formTitle {
   color: white;
-  background-color: rgba(140, 216, 221, 0.3);
+  background: rgba(140, 216, 221, 0.3);
   font-size: xx-large;
+  position:relative;
 }
 
 .formButton {
@@ -174,5 +175,12 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.searchHousewives {
+  color: white;
+  background: rgba(140, 216, 221, 0.3);
+  font-size: xx-large;
+  position:relative;
 }
 

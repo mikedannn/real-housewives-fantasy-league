@@ -8,6 +8,7 @@ import Form from './Form';
 import Home from './Home';
 import HousewifeCard from './HousewifeCard';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SearchHousewives from './SearchHousewives';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about' element={<About />}/>
           <Route path='/housewivespage' element={<HousewivesPage />}/>
           <Route path='/mycastcontainer' element={<MyCastContainer />}/>
+          <Route path='/searchhousewives' element={<SearchHousewives />}/>
           <Route path='/form' element={<Form />}/>
         </Routes>
       </div>

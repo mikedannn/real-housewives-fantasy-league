@@ -39,7 +39,7 @@ function Form({ setHousewives }) {
 
   return (
     <div className="form">
-      <h3 className='formTitle'>Add a New Housewife!</h3>
+      <h3 className='formTitle'>Add New Housewife!</h3>
         <form onSubmit={handleSubmit}>
             {/* <label>Housewife Name: </label> */}
             <input 

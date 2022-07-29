@@ -24,6 +24,9 @@ function NavBar() {
             <Link style={NavStyle} to='/form'>
                 <li>Form</li>
             </Link>
+            <Link style={NavStyle} to='/searchhousewives'>
+                <li>Search</li>
+            </Link>
         </ul>
     </nav>
   );
