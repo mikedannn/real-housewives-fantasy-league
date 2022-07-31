@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function HousewifeCard({ age, city, image, name }) {
+function HousewifeCard({ age, city, image, name, likes }) {
 
   const [addToCast, setAddToCast] = useState(true);
 
@@ -15,7 +15,8 @@ function HousewifeCard({ age, city, image, name }) {
         <img className="cardImage" src={image} alt={name} />
         <h2>{name}</h2>
         <p>City: {city} </p>
-        <p>Age: {age} </p>
+        <p>Age: {age}</p>
+        <button className='likeButton'>💎 {likes}</button>
         {addToCast ? (
           <button className='addButton' onClick={() => handleClick(false)}>Add to My Cast!</button>
         ) : (

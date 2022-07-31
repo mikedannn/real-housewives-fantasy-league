@@ -28,16 +28,18 @@ nav {
 }
 
 .card {
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 6px;
+  margin-left: 6px;
   width: 250px;
   box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
-  height: 375px;
-  border-radius: 25px;
+  height: 400px;
+  border-radius: 20px;
   backdrop-filter: blur(14px);
   background-color: rgba(255, 255, 255, 0.2);
-  padding: 50px;
+  padding: 40px;
   text-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .logo {
@@ -56,7 +58,7 @@ nav {
 
 .card img {
   width: 100%;
-  float: left;
+  float: center;
   width:  250px;
   height: 250px;
   object-fit: cover;
@@ -72,6 +74,7 @@ nav {
   display: inline-block;
   font-size: 16px;  
   border-radius: 6px;
+  margin-left: 6px;
 }
 
 .inCastButton {
@@ -135,6 +138,19 @@ header {
     font-size: 22px;  
     border-radius: 3px white;
     margin: 4px 0;
+}
+
+.likeButton {
+  background-color: rgba(253, 123, 253, 0.4); 
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;  
+  border-radius: 6px;
+  margin-right: 6px;
 }
 
 .form {

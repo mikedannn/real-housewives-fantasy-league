@@ -11,6 +11,7 @@ function HousewivesList({ housewives }) {
         city={housewife.city} 
         image={housewife.image} 
         name={housewife.name}
+        likes={housewife.likes}
     />
      ));
     
