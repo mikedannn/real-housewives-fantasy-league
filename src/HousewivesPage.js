@@ -20,17 +20,7 @@ function HousewivesPage() {
     .then(setHousewives)
   }, []); 
 
-  const updateHousewife = (updatedHousewife) => {
-    setHousewives(housewives => {
-      housewives.map(housewife => {
-        if(updatedHousewife.id === housewife.id) {
-          return updatedHousewife
-        } else {
-          return housewife
-        }
-      })
-    })
-  }
+
 
   const filteredHousewives = housewives.filter((housewife) => housewife.name.toLowerCase().includes(searchEntry.toLowerCase()))
 
@@ -39,7 +29,7 @@ function HousewivesPage() {
       <Form setHousewives={setHousewives}/>
       <MyCastContainer />
       <SearchHousewives searchEntry={searchEntry} setSearchEntry={setSearchEntry}/>
-      <HousewivesList housewives={filteredHousewives} updateHousewife={updateHousewife}/>
+      <HousewivesList housewives={filteredHousewives} />
     </main>
   );
 }

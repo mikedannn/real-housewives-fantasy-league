@@ -16,13 +16,13 @@ function NavBar() {
                 <li>About</li>
             </Link>
             <Link style={NavStyle} to='/housewivespage'>
-                <li>Housewives</li>
+                <li>All Housewives</li>
             </Link>
             <Link style={NavStyle} to='/mycastcontainer'>
             <   li>MyCast</li>
             </Link>
             <Link style={NavStyle} to='/form'>
-                <li>Form</li>
+                <li>Add New Housewife</li>
             </Link>
             <Link style={NavStyle} to='/searchhousewives'>
                 <li>Search</li>

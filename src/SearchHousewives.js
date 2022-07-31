@@ -3,8 +3,10 @@ import React from 'react';
 
 function SearchHousewives({ searchEntry, setSearchEntry }) {
     return (
+      
       <div className='search'>
-        <h2 className="searchHousewives" htmlFor='search'>Search Housewives: </h2>
+        <button className='formButton' onClick={() => console.log("clicked")}>Search Housewives</button>
+        {/* <h2 className="searchHousewives" htmlFor='search'>Search Housewives: </h2> */}
         <input
             type='text'
             id='search'

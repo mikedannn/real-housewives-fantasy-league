@@ -199,3 +199,13 @@ input[type=submit]:hover {
   position:relative;
 }
 
+.search {
+  background: rgba(140, 216, 221, 0.3);
+  font-size: xx-large;
+  position:relative;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
