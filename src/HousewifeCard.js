@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 
 function HousewifeCard({ age, city, image, name }) {
+
   const [addToCast, setAddToCast] = useState(true);
 
   function handleClick(newClick) {
-    console.log('clicked');
     setAddToCast(newClick);
   }
 
