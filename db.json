@@ -6,7 +6,7 @@
       "image": "https://www.bravotv.com/sites/bravo/files/2019-08/bethenny-frankel_0.jpg",
       "age": 51,
       "city": "New York City",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "image": "https://1.bp.blogspot.com/-ksNPzUlxMp0/X2wrcKfOerI/AAAAAAAA53c/DvOcPwaLjS8PvBUTt5mBLLtFM1fK5VjqQCLcBGAsYHQ/s2000/ramona-singer.jpg",
       "age": 65,
       "city": "New York City",
-      "likes": 0
+      "likes": 4
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/Luann-De-Lesseps-Real-Housewives-of-New-York-2.jpg?q=50&fit=crop&w=963&h=481&dpr=1.5",
       "age": 57,
       "city": "New York City",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/season-12-pictured-sonja-morgan-news-photo-1585861757.jpg?crop=0.311xw:0.233xh;0.353xw,0.108xh&resize=640:*",
       "age": 58,
       "city": "New York City",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": 5,
