@@ -6,30 +6,33 @@ import SearchHousewives from './SearchHousewives';
 
 const BASE_URL = "http://localhost:3002/housewivesData"
 
-function HousewivesPage() {
+function HousewivesPage( {housewives} ) {
 
-  const [housewives, setHousewives] = useState([]);
+  // const [housewives, setHousewives] = useState([]);
 
-  const [searchEntry, setSearchEntry] = useState('');
+  // const [searchEntry, setSearchEntry] = useState('');
 
-  const [myCast, setMyCast] = useState([]);
+  // const [myCast, setMyCast] = useState([]);
 
-  useEffect(() => {
-    fetch(BASE_URL)
-    .then((response) => response.json())
-    .then(setHousewives)
-  }, []); 
+  // useEffect(() => {
+  //   fetch(BASE_URL)
+  //   .then((response) => response.json())
+  //   .then(setHousewives)
+  // }, []); 
 
 
 
-  const filteredHousewives = housewives.filter((housewife) => housewife.name.toLowerCase().includes(searchEntry.toLowerCase()))
+  // const filteredHousewives = housewives.filter((housewife) => 
+  //   housewife.name.toLowerCase().includes(searchEntry.toLowerCase())
+  // )
 
   return (
     <main>
-      <Form setHousewives={setHousewives}/>
-      <MyCastContainer />
-      <SearchHousewives searchEntry={searchEntry} setSearchEntry={setSearchEntry}/>
-      <HousewivesList housewives={filteredHousewives} />
+      <HousewivesList housewives={housewives} />
+      {/* <Form setHousewives={setHousewives}/> */}
+      {/* <MyCastContainer /> */}
+      {/* <SearchHousewives searchEntry={searchEntry} setSearchEntry={setSearchEntry}/> */}
+      {/* <HousewivesList housewives={filteredHousewives} /> */}
     </main>
   );
 }
