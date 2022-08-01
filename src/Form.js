@@ -12,7 +12,6 @@ const intitialNewHousewife = {
 function Form({ setHousewives }) {
 
   const [newHousewife, setNewHousewife] = useState(intitialNewHousewife)
-  console.log(newHousewife)
 
   function handleChange(e) {
     setNewHousewife((currentNewHousewifeState) => ({
@@ -48,6 +47,7 @@ function Form({ setHousewives }) {
               placeholder='Housewife Name' 
               value={newHousewife.name}
               onChange={handleChange}
+              required
             />
             {/* <label>Image URL: </label> */}
             <input 
@@ -56,6 +56,7 @@ function Form({ setHousewives }) {
               placeholder='Add Image URL' 
               value={newHousewife.image}
               onChange={handleChange}
+              required
             />
             {/* <label>City: </label> */}
             <input 
@@ -64,6 +65,7 @@ function Form({ setHousewives }) {
               placeholder='City of Origin' 
               value={newHousewife.city}
               onChange={handleChange}
+              required
             />
             {/* <label>Age: </label> */}
             <input 
@@ -72,6 +74,7 @@ function Form({ setHousewives }) {
               placeholder='Age' 
               value={newHousewife.age}
               onChange={handleChange}
+              required
             />
             <button className='formButton' type='submit'>Create Card</button>
         </form>
