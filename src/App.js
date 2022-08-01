@@ -35,11 +35,11 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route exact path='/' element={<Home />}/>
+          <Route exact path='/' element={<HousewivesPage housewives={housewives} />}/>
           <Route path='/about' element={<About />}/>
-          <Route path='/housewivespage' element={<HousewivesPage housewives={filteredHousewives}/>}/>
+          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives}/>}/>
           <Route path='/mycastcontainer' element={<MyCastContainer />}/>
-          <Route path='/searchhousewives' element={<SearchHousewives searchEntry={searchEntry} setSearchEntry={setSearchEntry}/>}/>
+          <Route path='/searchhousewives' element={<SearchHousewives searchEntry={searchEntry} setSearchEntry={setSearchEntry} housewives={filteredHousewives}/>}/>
           <Route path='/form' element={<Form setHousewives={setHousewives}/>}/>
         </Routes>
       </div>

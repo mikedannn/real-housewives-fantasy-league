@@ -28,6 +28,7 @@ function HousewivesPage( {housewives} ) {
 
   return (
     <main>
+      <h1>Meet the Housewives!</h1>
       <HousewivesList housewives={housewives} />
       {/* <Form setHousewives={setHousewives}/> */}
       {/* <MyCastContainer /> */}
