@@ -14,12 +14,12 @@ function SearchHousewives({ housewives }) {
 
 
       <div className='search'>
-        <button className='formButton' onClick={() => console.log("clicked")}>Search Housewives</button>
+        {/* <button className='formButton' onClick={() => console.log("clicked")}>Search Housewives</button> */}
         {/* <h2 className="searchHousewives" htmlFor='search'>Search Housewives: </h2> */}
-        <input
+        <input className='searchBar'
             type='text'
             id='search'
-            placeholder='Type a name'
+            placeholder="Type any Housewife's Name"
             value={searchEntry}
             onChange={(e) => setSearchEntry(e.target.value)}
         />
