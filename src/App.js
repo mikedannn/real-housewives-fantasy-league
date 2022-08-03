@@ -5,7 +5,6 @@ import About from './About';
 import HousewivesPage from './HousewivesPage';
 import MyCastContainer from './MyCastContainer';
 import Form from './Form';
-import Home from './Home';
 import HousewifeCard from './HousewifeCard';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import SearchHousewives from './SearchHousewives';
@@ -16,8 +15,6 @@ function App() {
 
   const [housewives, setHousewives] = useState([]);
 
-  const [searchEntry, setSearchEntry] = useState('');
-
   const [myCast, setMyCast] = useState([]);
 
   useEffect(() => {
@@ -25,10 +22,6 @@ function App() {
     .then((response) => response.json())
     .then(setHousewives)
   }, []); 
-
-  const filteredHousewives = housewives.filter((housewife) => 
-    housewife.name.toLowerCase().includes(searchEntry.toLowerCase())
-  )
 
   return (
     <Router>
@@ -39,7 +32,7 @@ function App() {
           <Route path='/about' element={<About />}/>
           <Route path='/housewivespage' element={<HousewivesPage housewives={housewives}/>}/>
           <Route path='/mycastcontainer' element={<MyCastContainer />}/>
-          <Route path='/searchhousewives' element={<SearchHousewives searchEntry={searchEntry} setSearchEntry={setSearchEntry} housewives={filteredHousewives}/>}/>
+          <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives}/>}/>
           <Route path='/form' element={<Form setHousewives={setHousewives}/>}/>
         </Routes>
       </div>

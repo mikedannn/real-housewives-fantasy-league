@@ -6,16 +6,14 @@ function SearchHousewives({ housewives }) {
 
     const [searchEntry, setSearchEntry] = useState('');
 
-    const filteredHousewives = housewives.filter((housewife) => 
-      housewife.name.toLowerCase().includes(searchEntry.toLowerCase())
-    )
+    const filteredHousewives = searchEntry.length > 0
+      ? housewives.filter((housewife) => 
+          housewife.name.toLowerCase().includes(searchEntry.toLowerCase())
+    ) : []
 
     return (
 
-
       <div className='search'>
-        {/* <button className='formButton' onClick={() => console.log("clicked")}>Search Housewives</button> */}
-        {/* <h2 className="searchHousewives" htmlFor='search'>Search Housewives: </h2> */}
         <input className='searchBar'
             type='text'
             id='search'

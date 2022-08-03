@@ -42,7 +42,6 @@ function Form({ setHousewives }) {
     <div className="form">
       <h3 className='formTitle'>Add New Housewife!</h3>
         <form onSubmit={handleSubmit}>
-            {/* <label>Housewife Name: </label> */}
             <input 
               type='text'
               name='name' 
@@ -51,7 +50,6 @@ function Form({ setHousewives }) {
               onChange={handleChange}
               required
             />
-            {/* <label>Image URL: </label> */}
             <input 
               type='text' 
               name='image' 
@@ -60,7 +58,6 @@ function Form({ setHousewives }) {
               onChange={handleChange}
               required
             />
-            {/* <label>City: </label> */}
             <input 
               type='text' 
               name='city' 
@@ -69,7 +66,6 @@ function Form({ setHousewives }) {
               onChange={handleChange}
               required
             />
-            {/* <label>Age: </label> */}
             <input 
               type='number' 
               name='age' 

@@ -377,13 +377,6 @@
       "city": "Salt Lake City",
       "likes": 0,
       "casted": false
-    },
-    {
-      "name": "melon",
-      "image": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80",
-      "city": "Beverly Hills",
-      "age": "2",
-      "id": 43
     }
   ]
 }
