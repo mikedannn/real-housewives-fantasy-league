@@ -21,6 +21,7 @@ function Form({ setHousewives }) {
   }
 
   function handleSubmit(e) {
+    alert('Housewife added!')
     e.preventDefault();
 
     fetch(BASE_URL, {
@@ -34,6 +35,7 @@ function Form({ setHousewives }) {
       .then(data => setHousewives((currentHousewives) => [...currentHousewives, data]));
 
     setNewHousewife(intitialNewHousewife);
+
   }
 
   return (
