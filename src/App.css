@@ -124,6 +124,8 @@ header {
   background: rgba(140, 216, 221, 0.3);
   font-size: xx-large;
   position:relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .formButton {

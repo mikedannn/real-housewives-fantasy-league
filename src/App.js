@@ -23,6 +23,18 @@ function App() {
     .then(setHousewives)
   }, []); 
 
+  const updateHousewife = (updatedHousewife) => {
+    setHousewives(housewives => {
+      return housewives.map(housewife => {
+        if(updatedHousewife.id === housewife.id){
+          return updatedHousewife
+        } else {
+          return housewife
+        }
+      })
+    })
+  } 
+
   return (
     <Router>
       <div className="App">
@@ -30,7 +42,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<HousewivesPage housewives={housewives} />}/>
           <Route path='/about' element={<About />}/>
-          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives}/>}/>
+          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife}/>}/>
           <Route path='/mycastcontainer' element={<MyCastContainer />}/>
           <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives}/>}/>
           <Route path='/form' element={<Form setHousewives={setHousewives}/>}/>

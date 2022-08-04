@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function HousewifeCard({ id, age, city, image, name, likes }) {
+function HousewifeCard({ id, age, city, image, name, likes, casted, updateHousewife }) {
 
   const BASE_URL = "http://localhost:3002/housewivesData"
 
   const [addToCast, setAddToCast] = useState(true);
 
-  // const [likeCard, setLikeCard] = useState(0);
+  const [likeCard, setLikeCard] = useState(0);
 
   function handleClick(newClick) {
     setAddToCast(newClick);
@@ -24,9 +24,7 @@ function HousewifeCard({ id, age, city, image, name, likes }) {
     }
     fetch(`${BASE_URL}/${id}`, housewifeLikes)
     .then((response) => response.json())
-    .then((data) => {
-      console.log(data)
-    })
+    .then((data) => updateHousewife(data))
   }
 
   return (

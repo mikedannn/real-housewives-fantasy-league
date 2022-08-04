@@ -2,7 +2,7 @@ import React from 'react';
 import HousewifeCard from './HousewifeCard';
 import './App.css';
 
-function HousewivesList({ housewives }) {
+function HousewivesList({ housewives, updateHousewife }) {
 
     const returnHousewives = housewives.map((housewife) => (
     <HousewifeCard 
@@ -13,6 +13,8 @@ function HousewivesList({ housewives }) {
         image={housewife.image} 
         name={housewife.name}
         likes={housewife.likes}
+        casted={housewife.casted}
+        updateHousewife={updateHousewife}
     />
      ));
     
