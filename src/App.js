@@ -15,7 +15,7 @@ function App() {
 
   const [housewives, setHousewives] = useState([]);
 
-  const [myCast, setMyCast] = useState([]);
+  const [myHousewives, setMyHousewives] = useState([]);
 
   useEffect(() => {
     fetch(BASE_URL)
@@ -35,6 +35,17 @@ function App() {
     })
   } 
 
+  const addMyHousewife = (housewife) => {
+    console.log(housewife)
+    if(!myHousewives.includes(housewife)){
+      console.log('clicked')
+      const updatedMyHousewives =[...myHousewives, housewife]
+      setMyHousewives(updatedMyHousewives)
+    } else {
+      alert('Housewife already added to your cast!')
+    }
+  }
+
   return (
     <Router>
       <div className="App">
@@ -42,8 +53,8 @@ function App() {
         <Routes>
           <Route exact path='/' element={<HousewivesPage housewives={housewives} />}/>
           <Route path='/about' element={<About />}/>
-          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife}/>}/>
-          <Route path='/mycastcontainer' element={<MyCastContainer />}/>
+          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>}/>
+          <Route path='/mycastcontainer' element={<MyCastContainer housewives={myHousewives}/>}/>
           <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives}/>}/>
           <Route path='/form' element={<Form setHousewives={setHousewives}/>}/>
         </Routes>

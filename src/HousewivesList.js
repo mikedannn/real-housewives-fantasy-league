@@ -2,19 +2,21 @@ import React from 'react';
 import HousewifeCard from './HousewifeCard';
 import './App.css';
 
-function HousewivesList({ housewives, updateHousewife }) {
+function HousewivesList({ housewives, updateHousewife, addMyHousewife }) {
 
     const returnHousewives = housewives.map((housewife) => (
     <HousewifeCard 
         key={housewife.id}
-        id={housewife.id} 
-        age={housewife.age} 
-        city={housewife.city} 
-        image={housewife.image} 
-        name={housewife.name}
-        likes={housewife.likes}
-        casted={housewife.casted}
+        housewife={housewife}
+        // id={housewife.id} 
+        // age={housewife.age} 
+        // city={housewife.city} 
+        // image={housewife.image} 
+        // name={housewife.name}
+        // likes={housewife.likes}
+        // casted={housewife.casted}
         updateHousewife={updateHousewife}
+        addMyHousewife={addMyHousewife}
     />
      ));
     

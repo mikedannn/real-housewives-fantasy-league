@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function HousewifeCard({ id, age, city, image, name, likes, casted, updateHousewife }) {
+// function HousewifeCard({ id, age, city, image, name, likes, casted, updateHousewife, addMyHousewife }) {
+function HousewifeCard({ housewife, updateHousewife, addMyHousewife }) {
 
   const BASE_URL = "http://localhost:3002/housewivesData"
 
   const [addToCast, setAddToCast] = useState(true);
-
-  const [likeCard, setLikeCard] = useState(0);
 
   function handleClick(newClick) {
     setAddToCast(newClick);
@@ -20,9 +19,10 @@ function HousewifeCard({ id, age, city, image, name, likes, casted, updateHousew
       headers: {
         "Content-type": "application/json"
       },
-      body: JSON.stringify({"likes": likes + 1})
+      body: JSON.stringify({"likes": housewife.likes + 1})
     }
-    fetch(`${BASE_URL}/${id}`, housewifeLikes)
+    // fetch(`${BASE_URL}/${id}`, housewifeLikes)
+    fetch(`${BASE_URL}/${housewife.id}`, housewifeLikes)
     .then((response) => response.json())
     .then((data) => updateHousewife(data))
   }
@@ -30,13 +30,13 @@ function HousewifeCard({ id, age, city, image, name, likes, casted, updateHousew
   return (
 
     <li className="card">
-        <img className="cardImage" src={image} alt={name} />
-        <h2>{name}</h2>
-        <p>City: {city} </p>
-        <p>Age: {age}</p>
-        <button className='likeButton' onClick={addLike}>💎 {likes}</button>
+        <img className="cardImage" src={housewife.image} alt={housewife.name} />
+        <h2>{housewife.name}</h2>
+        <p>City: {housewife.city} </p>
+        <p>Age: {housewife.age}</p>
+        <button className='likeButton' onClick={addLike}>💎 {housewife.likes}</button>
         {addToCast ? (
-          <button className='addButton' onClick={() => handleClick(false)}>Add to My Cast!</button>
+          <button className='addButton' onClick={() => addMyHousewife(housewife)}>Add to My Cast!</button>
         ) : (
           <button className='inCastButton' onClick={() => handleClick(true)}>In My Cast!</button>
         )}
