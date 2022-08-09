@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 
 // function HousewifeCard({ id, age, city, image, name, likes, casted, updateHousewife, addMyHousewife }) {
-function HousewifeCard({ housewife, updateHousewife, addMyHousewife }) {
+function HousewifeCard({ key, housewife, updateHousewife, addMyHousewife }) {
 
   const BASE_URL = "http://localhost:3002/housewivesData"
 
@@ -38,7 +38,7 @@ function HousewifeCard({ housewife, updateHousewife, addMyHousewife }) {
         {addToCast ? (
           <button className='addButton' onClick={() => addMyHousewife(housewife)}>Add to My Cast!</button>
         ) : (
-          <button className='inCastButton' onClick={() => handleClick(true)}>In My Cast!</button>
+          <button className='inCastButton' onClick={() => handleClick(false)}>In My Cast!</button>
         )}
     </li>
   );

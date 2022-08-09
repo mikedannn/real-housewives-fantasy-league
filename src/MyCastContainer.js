@@ -1,10 +1,10 @@
 import './App.css';
-import HousewifeCard from './HousewifeCard';
+import HousewifeCastCard from './HousewifeCastCard';
 
 function MyCastContainer({ housewives }) {
 
   const returnHousewives = housewives.map((housewife) => (
-  <HousewifeCard 
+  <HousewifeCastCard 
       key={housewife.id}
       housewife={housewife}
       // id={housewife.id} 
@@ -18,10 +18,12 @@ function MyCastContainer({ housewives }) {
    ));
   
   return (
+    <div>
+      <h1 className='myCastTitle'>My Cast</h1>
       <ul className='cards'>
-        <h1>My Cast</h1>
           {returnHousewives}
        </ul>
+    </div>
   );
 }
 
