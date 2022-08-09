@@ -64,6 +64,36 @@ nav {
   object-fit: cover;
 }
 
+.directorChair {
+  width: 100%;
+  float: left;
+  padding-top: 100px;
+  width:  500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.aboutDescription {
+  text-align: left;
+  padding-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+  word-spacing: auto;
+  text-indent: 40px;
+  text-justify: newspaper;
+}
+
+.aboutDescription2 {
+  text-align: left;
+  padding-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+  word-spacing: auto;
+  text-justify: newspaper;
+}
+
 .addButton {
   background-color: rgba(253, 123, 253, 0.4); 
   border: none;
@@ -136,6 +166,17 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.aboutTitle {
+  color: white;
+  background: rgba(140, 216, 221, 0.3);
+  font-size: xx-large;
+  position:relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 
 .formButton {
     width: 60%;

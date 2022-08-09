@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import SearchResults from './SearchResults';
 
-function SearchHousewives({ housewives }) {
+function SearchHousewives({ housewives, updateHousewife, addMyHousewife }) {
 
     const [searchEntry, setSearchEntry] = useState('');
 
@@ -21,7 +21,11 @@ function SearchHousewives({ housewives }) {
             value={searchEntry}
             onChange={(e) => setSearchEntry(e.target.value)}
         />
-        < SearchResults housewives={filteredHousewives}/>
+        < SearchResults 
+            housewives={filteredHousewives} 
+            updateHousewife={updateHousewife} 
+            addMyHousewife={addMyHousewife}
+        />
       </div>
     );
 }

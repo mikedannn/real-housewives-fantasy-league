@@ -34,9 +34,7 @@ function App() {
   } 
 
   const addMyHousewife = (housewife) => {
-    console.log(housewife)
     if(!myHousewives.includes(housewife)){
-      console.log('clicked')
       const updatedMyHousewives =[...myHousewives, housewife]
       setMyHousewives(updatedMyHousewives)
     } else {
@@ -53,7 +51,7 @@ function App() {
           <Route path='/about' element={<About />}/>
           <Route path='/housewivespage' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>}/>
           <Route path='/mycastcontainer' element={<MyCastContainer housewives={myHousewives}/>}/>
-          <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives}/>}/>
+          <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>}/>
           <Route path='/form' element={<Form setHousewives={setHousewives}/>}/>
         </Routes>
       </div>

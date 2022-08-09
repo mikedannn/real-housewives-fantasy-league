@@ -69,7 +69,9 @@ function Form({ setHousewives }) {
             <input 
               type='number' 
               name='age' 
-              placeholder='Age' 
+              placeholder='Age'
+              min="0"
+              max="100"
               value={newHousewife.age}
               onChange={handleChange}
               required

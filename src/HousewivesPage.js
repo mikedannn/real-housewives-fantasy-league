@@ -5,7 +5,11 @@ function HousewivesPage( {housewives, updateHousewife, addMyHousewife} ) {
 
   return (
     <main>
-      <HousewivesList housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>
+      <HousewivesList 
+        housewives={housewives} 
+        updateHousewife={updateHousewife} 
+        addMyHousewife={addMyHousewife}
+      />
     </main>
   );
 }

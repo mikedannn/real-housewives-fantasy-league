@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-// function HousewifeCard({ id, age, city, image, name, likes, casted, updateHousewife, addMyHousewife }) {
-function HousewifeCard({ key, housewife, updateHousewife, addMyHousewife }) {
+function HousewifeCard({ housewife, updateHousewife, addMyHousewife }) {
 
   const BASE_URL = "http://localhost:3002/housewivesData"
 
@@ -13,7 +12,6 @@ function HousewifeCard({ key, housewife, updateHousewife, addMyHousewife }) {
   }
 
   function addLike(e) {
-
     const housewifeLikes = {
       method: "PATCH", 
       headers: {
@@ -21,7 +19,6 @@ function HousewifeCard({ key, housewife, updateHousewife, addMyHousewife }) {
       },
       body: JSON.stringify({"likes": housewife.likes + 1})
     }
-    // fetch(`${BASE_URL}/${id}`, housewifeLikes)
     fetch(`${BASE_URL}/${housewife.id}`, housewifeLikes)
     .then((response) => response.json())
     .then((data) => updateHousewife(data))

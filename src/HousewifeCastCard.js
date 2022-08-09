@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-function HousewifeCastCard({ key, housewife }) {
+function HousewifeCastCard({ housewife }) {
 
   const BASE_URL = "http://localhost:3002/housewivesData"
 
