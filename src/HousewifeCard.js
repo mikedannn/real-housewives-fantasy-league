@@ -19,6 +19,21 @@ function HousewifeCard({ housewife, updateHousewife, addMyHousewife }) {
     .then((data) => updateHousewife(data))
   }
 
+  function changeCastingStatus(e) {
+    const housewifeCastingStatus = {
+      method: "PATCH", 
+      headers: {
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify({"casted": !housewife.casted})
+    }
+    fetch(`${BASE_URL}/${housewife.id}`, housewifeCastingStatus)
+    .then((response) => response.json())
+    .then((data) => updateHousewife(data))
+  }
+
+
+
   return (
 
     <li className="card">
@@ -28,7 +43,7 @@ function HousewifeCard({ housewife, updateHousewife, addMyHousewife }) {
         <p>Age: {housewife.age}</p>
         <button className='likeButton' onClick={addLike}>💎 {housewife.likes}</button>
         <button className='addButton' 
-            onClick={() => addMyHousewife(housewife)}>
+            onClick={function(e){addMyHousewife(housewife);changeCastingStatus()}}>
               Add to My Cast!
         </button>
     </li>

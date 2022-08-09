@@ -50,11 +50,11 @@ function App() {
       <div className="App">
         <NavBar />
         <Routes>
-          <Route exact path='/' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife} casted={casted}/>}/>
+          <Route exact path='/' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife} />}/>
           <Route path='/about' element={<About />}/>
-          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife} casted={casted}/>}/>
+          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>}/>
           <Route path='/mycastcontainer' element={<MyCastContainer housewives={myHousewives}/>}/>
-          <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife} casted={casted}/>}/>
+          <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>}/>
           <Route path='/form' element={<Form setHousewives={setHousewives}/>}/>
         </Routes>
       </div>

@@ -6,7 +6,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/2019-08/bethenny-frankel_0.jpg",
       "age": 51,
       "city": "New York City",
-      "likes": 13
+      "likes": 13,
+      "casted": false
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "image": "https://1.bp.blogspot.com/-ksNPzUlxMp0/X2wrcKfOerI/AAAAAAAA53c/DvOcPwaLjS8PvBUTt5mBLLtFM1fK5VjqQCLcBGAsYHQ/s2000/ramona-singer.jpg",
       "age": 65,
       "city": "New York City",
-      "likes": 34
+      "likes": 38,
+      "casted": false
     },
     {
       "id": 3,
@@ -22,7 +24,8 @@
       "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/Luann-De-Lesseps-Real-Housewives-of-New-York-2.jpg?q=50&fit=crop&w=963&h=481&dpr=1.5",
       "age": 57,
       "city": "New York City",
-      "likes": 28
+      "likes": 29,
+      "casted": false
     },
     {
       "id": 4,
@@ -30,7 +33,8 @@
       "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/season-12-pictured-sonja-morgan-news-photo-1585861757.jpg?crop=0.311xw:0.233xh;0.353xw,0.108xh&resize=640:*",
       "age": 58,
       "city": "New York City",
-      "likes": 7
+      "likes": 7,
+      "casted": false
     },
     {
       "id": 5,
@@ -38,7 +42,8 @@
       "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/rockcms/2022-06/real-housewives-jill-zarin-2x1-bn-220613-75c0ce.jpg",
       "age": 58,
       "city": "New York City",
-      "likes": 3
+      "likes": 3,
+      "casted": false
     },
     {
       "id": 6,
@@ -46,7 +51,8 @@
       "image": "https://optimuscbd.co.uk/sites/bravo/files/2022/01/style-living-rhony-carole-radziwill-health.jpg",
       "age": 58,
       "city": "New York City",
-      "likes": 5
+      "likes": 6,
+      "casted": false
     },
     {
       "id": 7,
@@ -54,7 +60,8 @@
       "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/08/Dorinda-Medley-RHONY.jpg",
       "age": 57,
       "city": "New York City",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 8,
@@ -62,7 +69,8 @@
       "image": "http://1.bp.blogspot.com/-mVofb6EBLK8/VC-ZQI4iBGI/AAAAAAAAH2o/FHn6blBUGwk/s1600/LisA-VANDERpump-1200-800.jpg",
       "age": 61,
       "city": "Beverly Hills",
-      "likes": 1
+      "likes": 1,
+      "casted": false
     },
     {
       "id": 9,
@@ -70,7 +78,8 @@
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2020%2F12%2F07%2FGettyImages-1210482527.jpg&q=60",
       "age": 53,
       "city": "Beverly Hills",
-      "likes": 0
+      "likes": 1,
+      "casted": false
     },
     {
       "id": 10,
@@ -78,7 +87,8 @@
       "image": "https://3.bp.blogspot.com/-b72r9huscvU/V5CE5vw1wUI/AAAAAAAAUTM/iDC3yCZn2PIDmn_hQNtRfe8CY-tx-AmQQCLcB/s1600/camille-grammer.jpg",
       "age": 53,
       "city": "Beverly Hills",
-      "likes": 1
+      "likes": 1,
+      "casted": false
     },
     {
       "id": 11,
@@ -86,7 +96,8 @@
       "image": "http://1.bp.blogspot.com/-rVS4bdKC7rY/VYMok9EMWVI/AAAAAAAAM-M/HP_ot-BzwJY/w1200-h630-p-k-no-nu/Brandi.jpg",
       "age": 49,
       "city": "Beverly Hills",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 12,
@@ -94,7 +105,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/2019-02/dish-lisa-rinna.jpg",
       "age": 59,
       "city": "Beverly Hills",
-      "likes": 0
+      "likes": 1,
+      "casted": false
     },
     {
       "id": 13,
@@ -102,7 +114,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/styles/scale--1200/public/2022/04/rhobh-season-12-headshots-erika-jayne.jpg?itok=ujCFkHQT",
       "age": 51,
       "city": "Beverly Hills",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 14,
@@ -110,7 +123,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/field_blog_image/2016/06/dish-061516-yolanda.jpg",
       "age": 58,
       "city": "Beverly Hills",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 15,
@@ -118,7 +132,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/styles/blog-post-embedded--mobile/public/2020/09/nene-leakes-leaves-rhoa-cast.jpg?itok=Zr2yKYUC",
       "age": 54,
       "city": "Atlanta",
-      "likes": 4
+      "likes": 4,
+      "casted": false
     },
     {
       "id": 16,
@@ -126,7 +141,8 @@
       "image": "https://akns-images.eonline.com/eol_images/Entire_Site/20171113/rs_1024x759-171213154519-1024-kim-zolciak-biermann-rhoa-bravo.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top",
       "age": 44,
       "city": "Atlanta",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 17,
@@ -134,7 +150,8 @@
       "image": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2561,x_0,y_106/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1494356892/articles/2017/05/09/real-housewives-star-phaedra-parks-reportedly-fired-over-rape-drugging-rumors/170508-zimmerman-Phaedra-Parks-tease_bxgdu4",
       "age": 48,
       "city": "Atlanta",
-      "likes": 4
+      "likes": 4,
+      "casted": false
     },
     {
       "id": 18,
@@ -142,7 +159,8 @@
       "image": "https://hips.hearstapps.com/hmg-prod/images/season-12-pictured-kenya-moore-news-photo-1595444287.jpg",
       "age": 51,
       "city": "Atlanta",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 19,
@@ -150,7 +168,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/2021/09/porsha-williams-leaves-rhoa.jpg",
       "age": 41,
       "city": "Atlanta",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 20,
@@ -158,7 +177,8 @@
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2020%2F10%2F29%2Frhoa-7-2000.jpg&q=60",
       "age": 55,
       "city": "Atlanta",
-      "likes": 0
+      "likes": 1,
+      "casted": false
     },
     {
       "id": 21,
@@ -166,7 +186,8 @@
       "image": "https://1.bp.blogspot.com/-XON3601XyrE/XxFosQoRP2I/AAAAAAAA3Rs/-eVZ8BGMorsQgL0uKW_koKNwBlJoibhRACLcBGAsYHQ/s1600/kandi-rhoa.JPG",
       "age": 46,
       "city": "Atlanta",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 22,
@@ -174,7 +195,8 @@
       "image": "https://s1.r29static.com/bin/entry/e19/x,80/2238379/image.jpg",
       "age": 60,
       "city": "Orange County",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 23,
@@ -182,7 +204,8 @@
       "image": "https://hollywoodlife.com/wp-content/uploads/2020/02/tamra-judge-real-housewives-of-orange-county-bravo-ftr.jpg",
       "age": 55,
       "city": "Orange County",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 24,
@@ -190,7 +213,8 @@
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2021%2F12%2F01%2FNUP_195561_01033.jpg",
       "age": 53,
       "city": "Orange County",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 25,
@@ -198,7 +222,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/2019-07/shannon-beador-rhoc-cast-promote.jpg",
       "age": 57,
       "city": "Orange County",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 26,
@@ -206,7 +231,8 @@
       "image": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/34824ea66172e1893818cbccf474a8877ae4c2fd3881d171b6da1ee49a18479a._SX1080_.jpg",
       "age": 43,
       "city": "Orange County",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 27,
@@ -214,7 +240,8 @@
       "image": "https://www.etonline.com/sites/default/files/images/2020-09/1280_kelly_dodd_rhoc.jpg",
       "age": 46,
       "city": "Orange County",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 28,
@@ -222,7 +249,8 @@
       "image": "https://rdcnewscdn.realtor.com/wp-content/uploads/2019/04/Jeana-Keough.jpg",
       "age": 66,
       "city": "Orange County",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 29,
@@ -230,7 +258,8 @@
       "image": "https://d.newsweek.com/en/full/1367761/whats-next-teresa-giudice.png?w=1600&h=1600&q=88&f=310e6012766302f1bdcc2448c0648973",
       "age": 50,
       "city": "New Jersey",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 30,
@@ -238,7 +267,8 @@
       "image": "https://akns-images.eonline.com/eol_images/Entire_Site/2013817/rs_1024x759-130917095807-1024.caroline-manzo-real-housewives-new-jersey.ls.91713_copy.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top",
       "age": 60,
       "city": "New Jersey",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 31,
@@ -246,7 +276,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/2019-10/danielle-staub-rhonj-s1-tagline.jpg",
       "age": 59,
       "city": "New Jersey",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 32,
@@ -254,7 +285,8 @@
       "image": "https://www.cheatsheet.com/wp-content/uploads/2021/07/Melissa-Gorga.jpg",
       "age": 43,
       "city": "New Jersey",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 33,
@@ -262,7 +294,8 @@
       "image": "https://nypost.com/wp-content/uploads/sites/2/2020/07/dina-manzo-1.jpg?quality=75&strip=all&w=1024",
       "age": 50,
       "city": "New Jersey",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 34,
@@ -270,7 +303,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/field_blog_image/2017/08/dish-082217-jacqueline-laurita.jpg",
       "age": 52,
       "city": "New Jersey",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 35,
@@ -278,7 +312,8 @@
       "image": "https://static.wixstatic.com/media/ca1bbf_aa37713fb5f5459c9fabef28ae23db6c.jpg/v1/fill/w_420,h_240,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ca1bbf_aa37713fb5f5459c9fabef28ae23db6c.jpg",
       "age": 56,
       "city": "New Jersey",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 36,
@@ -286,7 +321,8 @@
       "image": "https://i0.wp.com/www.monstersandcritics.com/wp-content/uploads/2020/11/rhoslc-lisa-barlow-does-she-drink-alcohol-brand-mormon-religion.jpg?resize=773.5%2C435&ssl=1",
       "age": 47,
       "city": "Salt Lake City",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 37,
@@ -294,7 +330,8 @@
       "image": "https://www.bravotv.com/sites/bravo/files/2021/01/mary-cosby-regrets-this-rhoslc.jpg",
       "age": 49,
       "city": "Salt Lake City",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 38,
@@ -302,7 +339,8 @@
       "image": "https://akns-images.eonline.com/eol_images/Entire_Site/202118/rs_1200x1200-210208140729-1200-heather-gay-rhoslc-bravo.jpg?fit=around%7C700:700&output-quality=90&crop=700:700;center,top",
       "age": 40,
       "city": "Salt Lake City",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 39,
@@ -310,7 +348,8 @@
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2020%2F09%2F09%2Frhoslc-3-2000.jpg",
       "age": 50,
       "city": "Salt Lake City",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 40,
@@ -318,7 +357,8 @@
       "image": "https://imgix.bustle.com/uploads/image/2020/11/11/fd33628b-500c-4b35-a229-3b64d08e9eef-nup_191484_3975.jpg?w=1200&h=630&fit=crop&crop=focalpoint&fm=jpg&fp-x=0.476&fp-y=0.27251732101616627",
       "age": 35,
       "city": "Salt Lake City",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 41,
@@ -326,7 +366,8 @@
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F03%2F30%2FJen-Shah.jpg",
       "age": 48,
       "city": "Salt Lake City",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     },
     {
       "id": 42,
@@ -334,7 +375,8 @@
       "image": "https://static.onecms.io/wp-content/uploads/sites/20/2021/10/16/Jennie-Nguyen.jpg",
       "age": 45,
       "city": "Salt Lake City",
-      "likes": 0
+      "likes": 0,
+      "casted": false
     }
   ]
 }
