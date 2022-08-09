@@ -1,7 +1,7 @@
 import React from 'react';
 import HousewivesList from './HousewivesList';
 
-function HousewivesPage( {housewives, updateHousewife, addMyHousewife} ) {
+function HousewivesPage( {housewives, updateHousewife, addMyHousewife } ) {
 
   return (
     <main>

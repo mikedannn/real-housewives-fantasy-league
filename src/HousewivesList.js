@@ -2,7 +2,7 @@ import React from 'react';
 import HousewifeCard from './HousewifeCard';
 import './App.css';
 
-function HousewivesList({ housewives, updateHousewife, addMyHousewife }) {
+function HousewivesList({ housewives, updateHousewife, addMyHousewife, casted }) {
 
     const returnHousewives = housewives.map((housewife) => (
         <HousewifeCard 

@@ -14,6 +14,8 @@ function App() {
 
   const [housewives, setHousewives] = useState([]);
   const [myHousewives, setMyHousewives] = useState([]);
+  const [casted, setCasted] = useState(false);
+  
 
   useEffect(() => {
     fetch(BASE_URL)
@@ -37,21 +39,22 @@ function App() {
     if(!myHousewives.includes(housewife)){
       const updatedMyHousewives =[...myHousewives, housewife]
       setMyHousewives(updatedMyHousewives)
+      setCasted(!casted)
     } else {
       alert('Housewife already added to your cast!')
     }
   }
-
+  
   return (
     <Router>
       <div className="App">
         <NavBar />
         <Routes>
-          <Route exact path='/' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>}/>
+          <Route exact path='/' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife} casted={casted}/>}/>
           <Route path='/about' element={<About />}/>
-          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>}/>
+          <Route path='/housewivespage' element={<HousewivesPage housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife} casted={casted}/>}/>
           <Route path='/mycastcontainer' element={<MyCastContainer housewives={myHousewives}/>}/>
-          <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife}/>}/>
+          <Route path='/searchhousewives' element={<SearchHousewives housewives={housewives} updateHousewife={updateHousewife} addMyHousewife={addMyHousewife} casted={casted}/>}/>
           <Route path='/form' element={<Form setHousewives={setHousewives}/>}/>
         </Routes>
       </div>
