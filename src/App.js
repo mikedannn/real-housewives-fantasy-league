@@ -14,7 +14,6 @@ function App() {
 
   const [housewives, setHousewives] = useState([]);
   const [myHousewives, setMyHousewives] = useState([]);
-  const [casted, setCasted] = useState(false);
   
 
   useEffect(() => {
@@ -39,9 +38,9 @@ function App() {
     if(!myHousewives.includes(housewife)){
       const updatedMyHousewives =[...myHousewives, housewife]
       setMyHousewives(updatedMyHousewives)
-      setCasted(!casted)
+      alert(`${housewife.name}` + ' added to your cast!')
     } else {
-      alert('Housewife already added to your cast!')
+      alert(`${housewife.name}` + ' is already in your cast!')
     }
   }
   

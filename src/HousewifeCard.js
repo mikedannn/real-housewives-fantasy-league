@@ -43,7 +43,7 @@ function HousewifeCard({ housewife, updateHousewife, addMyHousewife }) {
         <p>Age: {housewife.age}</p>
         <button className='likeButton' onClick={addLike}>💎 {housewife.likes}</button>
         <button className='addButton' 
-            onClick={function(e){addMyHousewife(housewife);changeCastingStatus()}}>
+              onClick={()=>addMyHousewife(housewife)}>
               Add to My Cast!
         </button>
     </li>
