@@ -12,4 +12,14 @@ This web application was created to allow the user to scan through, search for, 
 * `Search` all housewives using the search bar
 * Read about the functionality of the application by visiting the `About` page
 
+## Using the App
+
+Browse through the housewife cards upon visiting the page. 
+![](/public/HomePageHW.png)
+
+
+
+
+
+
 > This app is a single-page React application.
