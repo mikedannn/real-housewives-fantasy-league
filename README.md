@@ -21,7 +21,7 @@ Browse through the housewife cards upon visiting the page.
 
 See which cards you have added to your "Cast" after clicking on a card. 
 
-[](/public/MyCastPage.png)
+![](/public/MyCastPage.png)
 
 
 Utilize the controlled form to create your own housewife card. 
