@@ -15,7 +15,28 @@ This web application was created to allow the user to scan through, search for, 
 ## Using the App
 
 Browse through the housewife cards upon visiting the page. 
+
 ![](/public/HomePageHW.png)
+
+
+See which cards you have added to your "Cast" after clicking on a card. 
+
+[](/public/MyCastPage.png)
+
+
+Utilize the controlled form to create your own housewife card. 
+
+![](/public/Form.png)
+
+
+Search for a card by typing into the Search Bar. 
+
+![](/public/SearchBar.png)
+
+
+Browse through search results instantly as you type into the Search Bar. 
+
+![](/public/SearchResults.png)
 
 
 
