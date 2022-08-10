@@ -6,7 +6,7 @@
       "image": "https://www.bravotv.com/sites/bravo/files/2019-08/bethenny-frankel_0.jpg",
       "age": 51,
       "city": "New York City",
-      "likes": 13
+      "likes": 14
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "image": "https://1.bp.blogspot.com/-ksNPzUlxMp0/X2wrcKfOerI/AAAAAAAA53c/DvOcPwaLjS8PvBUTt5mBLLtFM1fK5VjqQCLcBGAsYHQ/s2000/ramona-singer.jpg",
       "age": 65,
       "city": "New York City",
-      "likes": 41
+      "likes": 42
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/Luann-De-Lesseps-Real-Housewives-of-New-York-2.jpg?q=50&fit=crop&w=963&h=481&dpr=1.5",
       "age": 57,
       "city": "New York City",
-      "likes": 33
+      "likes": 34
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/season-12-pictured-sonja-morgan-news-photo-1585861757.jpg?crop=0.311xw:0.233xh;0.353xw,0.108xh&resize=640:*",
       "age": 58,
       "city": "New York City",
-      "likes": 7
+      "likes": 8
     },
     {
       "id": 5,
@@ -102,7 +102,7 @@
       "image": "https://www.bravotv.com/sites/bravo/files/styles/scale--1200/public/2022/04/rhobh-season-12-headshots-erika-jayne.jpg?itok=ujCFkHQT",
       "age": 51,
       "city": "Beverly Hills",
-      "likes": 0
+      "likes": 3
     },
     {
       "id": 14,
@@ -110,7 +110,7 @@
       "image": "https://www.bravotv.com/sites/bravo/files/field_blog_image/2016/06/dish-061516-yolanda.jpg",
       "age": 58,
       "city": "Beverly Hills",
-      "likes": 1
+      "likes": 3
     },
     {
       "id": 15,
@@ -118,7 +118,7 @@
       "image": "https://www.bravotv.com/sites/bravo/files/styles/blog-post-embedded--mobile/public/2020/09/nene-leakes-leaves-rhoa-cast.jpg?itok=Zr2yKYUC",
       "age": 54,
       "city": "Atlanta",
-      "likes": 4
+      "likes": 5
     },
     {
       "id": 16,
@@ -126,7 +126,7 @@
       "image": "https://akns-images.eonline.com/eol_images/Entire_Site/20171113/rs_1024x759-171213154519-1024-kim-zolciak-biermann-rhoa-bravo.jpg?fit=around%7C1024:759&output-quality=90&crop=1024:759;center,top",
       "age": 44,
       "city": "Atlanta",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": 17,
@@ -158,7 +158,7 @@
       "image": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2020%2F10%2F29%2Frhoa-7-2000.jpg&q=60",
       "age": 55,
       "city": "Atlanta",
-      "likes": 1
+      "likes": 2
     },
     {
       "id": 21,
@@ -174,7 +174,7 @@
       "image": "https://s1.r29static.com/bin/entry/e19/x,80/2238379/image.jpg",
       "age": 60,
       "city": "Orange County",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": 23,
@@ -182,7 +182,7 @@
       "image": "https://hollywoodlife.com/wp-content/uploads/2020/02/tamra-judge-real-housewives-of-orange-county-bravo-ftr.jpg",
       "age": 55,
       "city": "Orange County",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": 24,
@@ -222,7 +222,7 @@
       "image": "https://rdcnewscdn.realtor.com/wp-content/uploads/2019/04/Jeana-Keough.jpg",
       "age": 66,
       "city": "Orange County",
-      "likes": 0
+      "likes": 1
     },
     {
       "id": 29,
@@ -335,6 +335,14 @@
       "age": 45,
       "city": "Salt Lake City",
       "likes": 0
+    },
+    {
+      "name": "Martha Stewart",
+      "image": "https://assets.entrepreneur.com/content/3x2/2000/4-secrets-lifelong-success-martha-stewart.jpg",
+      "city": "New York",
+      "age": "82",
+      "id": 43,
+      "likes": 3
     }
   ]
 }
